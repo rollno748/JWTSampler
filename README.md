@@ -3,7 +3,8 @@ JSON Webtoken sampler for Jmeter to handle JWT authentication.
 
 ## Introduction
 
-Jmeter supports most of the web feautures but were lacking in some of the functionalities which uses latest implementaions.
+Jmeter supports most of the web feautures. but, were lacking in some of the functionalities which uses latest implementations.
+such as JWT Authentication for APIs/Web
 
 ## Objective
 
