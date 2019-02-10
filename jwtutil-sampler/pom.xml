@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jmeter.jwt</groupId>
+  <artifactId>jwtutil-sampler</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+        <jmeter.version>3.3</jmeter.version>
+        <jmeter.lib.scope>provided</jmeter.lib.scope>
+  </properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.jmeter</groupId>
+  		<artifactId>ApacheJMeter_core</artifactId>
+  		<version>3.3</version>
+  	</dependency>
+  	<dependency>
+        <groupId>org.apache.jmeter</groupId>
+        <artifactId>ApacheJMeter_java</artifactId>
+        <version>${jmeter.version}</version>
+        <scope>${jmeter.lib.scope}</scope>
+    </dependency>
+  	<dependency>
+  		<groupId>org.bitbucket.b_c</groupId>
+  		<artifactId>jose4j</artifactId>
+  		<version>0.4.1</version>
+  	</dependency>
+	<dependency>
+	    <groupId>org.bouncycastle</groupId>
+	    <artifactId>bcprov-jdk16</artifactId>
+	    <version>1.45</version>
+	</dependency>
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>	
+  </dependencies>
+  
+</project>
