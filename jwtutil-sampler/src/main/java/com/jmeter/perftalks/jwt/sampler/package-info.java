@@ -6,4 +6,4 @@
  * JWT Authentication using Java Sampler
  *
  */
-package com.jmeter.jwtsampler.sampler;
+package com.jmeter.perftalks.jwt.sampler;
