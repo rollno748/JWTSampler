@@ -63,7 +63,7 @@ public class JWTToken {
 		jwsign.setHeader("typ", "JWT");
 		if(JWTAlgorithm == "SHA256") {
 			jwsign.setAlgorithmHeaderValue(AlgorithmIdentifiers.RSA_USING_SHA256);
-		}else if (JWTAlgorithm == "SHA256") {
+		}else if (JWTAlgorithm == "SHA512") {
 			jwsign.setAlgorithmHeaderValue(AlgorithmIdentifiers.RSA_USING_SHA512);
 		}
 		
